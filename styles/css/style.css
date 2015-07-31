@@ -1,0 +1,185 @@
+body{
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 13px;
+}
+
+.box{
+    width: 494px;
+    border: 1px solid #D8D8D8;
+    margin: 90px auto;
+    padding: 15px;
+}
+
+.box .title{
+    border-bottom: 1px solid #EFEFEF;
+    margin-bottom: 10px;
+    padding: 0px 0px 4px 10px;
+    font-size: 15px;
+}
+
+.box .body{
+    margin-top: 20px;
+}
+
+.card-front{
+    -moz-box-shadow: 4px 2px 25px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 2px 25px -2px rgba(0,0,0,0.75);
+    box-shadow: 4px 2px 25px -2px rgba(0,0,0,0.75);
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #D8D8D8;
+    display: inline-block;
+    height: 175px;
+    padding: 20px 20px 13px 25px;
+    position: relative;
+    width: 295px;
+    z-index: 2;
+}
+
+
+.card-back{
+    border: 1px solid #D8D8D8;
+    width: 100px;
+    margin-left: -31px;
+    z-index: 1;
+    height: 165px;
+    border-radius: 10px;
+    padding: 30px 35px 13px 40px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ECECEC;
+    position: relative;
+}
+
+.card-back .line{
+    width: 200px;
+    height: 38px;
+    background-color: #676767;
+    position: absolute;
+    top: 25px;
+    right: -1px;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.card{
+    margin-top: 15px;
+}
+
+.text{
+    width: auto;
+    font-size: 15px;
+    padding: 5px 0px;
+    margin: 4px 4px 4px 0px;
+}
+
+.small{
+    font-size: 13px !important;
+}
+
+.mini{
+    font-size: 10px !important;
+    padding-top: 9px;
+    color: #848080;
+}
+
+input[type="text"]{
+    font-size: 19px;
+    padding: 5px 6px;
+    width: 281px;
+    -webkit-box-shadow: inset -2px 4px 15px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -2px 4px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: inset -2px 4px 15px -10px rgba(0,0,0,0.75);
+    border: 1px solid #C5C5C5;
+    outline: none;
+}
+
+select{
+    outline: none;
+
+    font-size: 13px;
+    margin: 10px 0;
+    padding: 3px 6px;
+    -webkit-box-shadow: inset -2px 4px 15px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -2px 4px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: inset -2px 4px 15px -10px rgba(0,0,0,0.75);
+}
+
+.selects{
+    float: right;
+}
+
+.cvc{
+    top: 75px;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    left: 60px;
+}
+
+.cvc input{
+    width: 46px;
+    text-align: center;
+    padding: 6px;
+}
+
+b{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-image{
+    background: url('/styles/images/visa_mastercard.png');
+    width: 45px;
+    height: 30px;
+    background-size: 139%;
+    display: inline-block;
+}
+
+.visa{
+    background-position: -9px -32px;
+}
+
+.mastercard{
+    background-position: -9px 0px;
+}
+
+.info{
+    margin-top: 20px;
+}
+
+.buttons{
+    margin-top: 15px;
+}
+
+.buttons input[type="submit"]{
+    font-size: 15px;
+    background-color: #E6E6E6;
+    padding: 9px 31px;
+    border: 1px solid #C7C7C7;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.buttons input[type="submit"]:hover{
+    background-color: #C7C7C7;
+}
+
+.rules{
+    width: 307px;
+    vertical-align: bottom;
+    line-height: 20px;
+    color: #6B6A6A;
+    text-align: left;
+    margin-left: 10px;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4E4E4E;
+}
